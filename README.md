@@ -114,6 +114,8 @@ cd backend
 cp .env.example .env
 # Open .env and fill in your GROQ_API_KEY (and optionally TAVILY_API_KEY)
 pip install -r requirements.txt
+#if it gives error Make env using this command (source env/bin/activate)
+
 uvicorn main:app --reload --port 8000
 ```
 
